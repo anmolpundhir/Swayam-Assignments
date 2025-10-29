@@ -1,3 +1,4 @@
+// Find the maximum and minimum element in the array.
 #include<stdio.h>
 #include<vector>
 #include<algorithm>
@@ -26,3 +27,4 @@ pair<int,int> findMaxMinOptimal(vector<int>& arr){
     }
     return {maxElement,minElement};
 }
+
