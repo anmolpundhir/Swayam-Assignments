@@ -14,7 +14,7 @@ bool areIsomorphic(const string& s1, const string& s2) {
     unordered_map<char, char> mapS1toS2;
     unordered_map<char, char> mapS2toS1;
 
-    for (size_t i = 0; i < s1.length(); ++i) {
+    for (int i = 0; i < s1.length(); ++i) {
         char char1 = s1[i];
         char char2 = s2[i];
 
@@ -38,4 +38,5 @@ bool areIsomorphic(const string& s1, const string& s2) {
     }
 
     return true;
+
 }
